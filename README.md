@@ -6,13 +6,13 @@
 [![Nuget](https://img.shields.io/nuget/dt/Clean.Architecture.Solution.Template?label=Downloads)](https://www.nuget.org/packages/Clean.Architecture.Solution.Template)
 ![Twitter Follow](https://img.shields.io/twitter/follow/jasontaylordev?label=Follow&style=social)
 
-The goal of this template is to provide a straightforward and efficient approach to enterprise application development, leveraging the power of Clean Architecture and ASP.NET Core. Using this template, you can effortlessly create a Single Page App (SPA) with ASP.NET Core and Angular or React, while adhering to the principles of Clean Architecture. Getting started is easy - simply install the **.NET template** (see below for full details).
+이 템플릿의 목표는 Clean Architecture 및 ASP.NET Core의 기능을 활용하여 엔터프라이즈 애플리케이션 개발에 대한 간단하고 효율적인 접근 방식을 제공하는 것입니다. 이 템플릿을 사용하면 Clean Architecture의 원칙을 준수하면서 ASP.NET Core 및 Angular 또는 React를 사용하여 SPA(단일 페이지 앱)를 쉽게 만들 수 있습니다. 시작하는 것은 쉽습니다. .NET 템플릿을 설치하기만 하면 됩니다(자세한 내용은 아래 참조).
 
-If you find this project useful, please give it a star. Thanks! ⭐
+이 프로젝트가 유용하다고 생각되면 별점을 주세요. 감사해요! ⭐
 
 ## Getting Started
 
-The following prerequisites are required to build and run the solution:
+솔루션을 빌드하고 실행하려면 다음 필수 구성 요소가 필요합니다:
 
 - [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) (latest version)
 - [Node.js](https://nodejs.org/) (latest LTS, only required if you are using Angular or React)
