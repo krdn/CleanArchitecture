@@ -3,7 +3,7 @@
   <metadata>
 
     <id>Clean.Architecture.Solution.Template</id>
-    <version>8.0.5</version>
+    <version>8.0.6</version>
     <title>Clean Architecture Solution Template</title>
     <authors>JasonTaylorDev</authors>
     <description>Clean Architecture Solution Template for .NET 8.</description>
@@ -11,7 +11,8 @@
       A Clean Architecture Solution Template for creating apps using Angular, React, or Web API only with ASP.NET Core.
     </summary>
     <releaseNotes>
-      🐛 Disabled simplified build outputs due to EF Core compatability issue.
+      📦 Upgraded to Angular 17
+      ✨ Added azd compatibility
     </releaseNotes>
 
     <projectUrl>https://github.com/JasonTaylorDev/CleanArchitecture</projectUrl>
@@ -32,7 +33,7 @@
   <files>
     <file src=".template.config\icon.png" />
     <file src="README.md" />
-    <file src=".\**" target="content" exclude="**\node_modules\**;**\bin\**;**\obj\**;.\.vs\**;.\.vscode\**;**\ClientApp\dist\**;**\wwwroot\dist\**;content\Directory.Build.*;.\.git\**;.\.github\workflows\package.yml;.\.github\workflows\codeql.yml;.\.github\ISSUE_TEMPLATE\**;.\.github\icon.png;.\CODE_OF_CONDUCT.md;.\LICENSE;.\README.md;" />
+    <file src=".\**" target="content" exclude="**\node_modules\**;**\bin\**;**\obj\**;.\.vs\**;.\.vscode\**;**\ClientApp\dist\**;**\wwwroot\dist\**;content\Directory.Build.*;.\.git\**;.\.github\workflows\package.yml;.\.github\workflows\codeql.yml;.\.github\workflows\build.yml;.\.github\ISSUE_TEMPLATE\**;.\.github\icon.png;.\.github\FUNDING.md;.\CODE_OF_CONDUCT.md;.\LICENSE;.\README.md;" />
   </files>
 
 </package>
